@@ -253,6 +253,7 @@ footer nav select{
 	-moz-appearance: none;
 	border: 0;
 	outline: none;
+	background-color: transparent;
 }
 
 select:focus{
@@ -313,7 +314,7 @@ footer > span{
 }/*950*/
 
 @media screen and (max-width: 875px){
-	.form, .login, .p, .download{
+	.form, .login, .p, .download, .sign-up{
 		left: 50%;
 		transform: translate(-50%);
 	}
@@ -329,7 +330,7 @@ footer > span{
 		width: 347px;
 		text-align: center;
 		height: 75px;
-		margin-left: 30px;
+/*		margin-left: 30px;*/
 	}
 	footer nav{
 		margin: 0 auto;
